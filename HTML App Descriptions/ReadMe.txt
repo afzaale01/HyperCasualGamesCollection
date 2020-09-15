@@ -1,0 +1,1 @@
+These are HTML pages used so that sharing to facebook has the correct app description

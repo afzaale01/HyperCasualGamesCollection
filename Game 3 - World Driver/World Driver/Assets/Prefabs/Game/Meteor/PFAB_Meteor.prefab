@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6923464812550262963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6923464812550262959}
+  - component: {fileID: 6923464812550262958}
+  - component: {fileID: 6923464812550262960}
+  - component: {fileID: 7530939997137216946}
+  - component: {fileID: 6566175224471604876}
+  m_Layer: 0
+  m_Name: PFAB_Meteor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6923464812550262959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923464812550262963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6923464812550262958
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923464812550262963}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!135 &6923464812550262960
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923464812550262963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &7530939997137216946
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923464812550262963}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6566175224471604876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923464812550262963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b4b66b469ebdc4db826c3a66da5c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 0}
+  placeOnSurface: 0
+  craterPrefab: {fileID: 6343087637582447200, guid: bf9bafccc5607304086b1e27a8504454,
+    type: 3}
+  explosionPrefab: {fileID: 814261100622647468, guid: af841929d365aea428b856be72735132,
+    type: 3}
+  models:
+  - {fileID: 102630, guid: 678bc45fa6df37043b80d12daa3a9d51, type: 3}
+  - {fileID: 152982, guid: 75204aeb0b1f4194e8dd78998abb7652, type: 3}
+  - {fileID: 111306, guid: 7255e26f7d2981d4ea7ed83351d2d805, type: 3}
+  - {fileID: 114474, guid: 6f6b913233923554eb49f4cb7bd23ff4, type: 3}
+  - {fileID: 156152, guid: 93a05d93f0fd810439cd9267453b0865, type: 3}
+  - {fileID: 112560, guid: fdba5130b4369c4418d13375cbd4f27c, type: 3}
+  - {fileID: 159232, guid: be0c5bb5e87aa724389ad73a7f8e9788, type: 3}
+  - {fileID: 175342, guid: 3277d8aafcb068342a9f3d43a8b75b8c, type: 3}
+  - {fileID: 115850, guid: 2bca82b9337d12545a5f3238ab55612b, type: 3}
+  - {fileID: 158218, guid: ea3b1b7de8e530346b335abce83beb31, type: 3}
+  - {fileID: 141786, guid: 53626206312a0e34c8b9d69f0cde2452, type: 3}
+  - {fileID: 112054, guid: 66384f19d8d3cc042a4841bb312b05e4, type: 3}
+  - {fileID: 110516, guid: c3ae58415e58c4c4db86b24da5468761, type: 3}
+  - {fileID: 186512, guid: dd3c1c678387e4e48ab9e711f4a22844, type: 3}
+  - {fileID: 108406, guid: 00684c1d8314c3a4f8d58f4988233356, type: 3}
+  - {fileID: 102898, guid: 6352ac70b184ad14f97f439232978d61, type: 3}
+  - {fileID: 153758, guid: abad2f0b359f8a445a4c199a05691f84, type: 3}
+  - {fileID: 184638, guid: 440691a435237c841a7b16830d776dd3, type: 3}
+  - {fileID: 199658, guid: dc134c807fe86f04aacd9559cad52091, type: 3}
+  - {fileID: 155636, guid: 51db1e0f8a2ffb841a9e47380df0fc62, type: 3}
+  - {fileID: 193304, guid: 197689c139fb671489c4faec41b5fb80, type: 3}
